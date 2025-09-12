@@ -47,10 +47,10 @@ importers:
         version: link:../../packages/server
       '@hono/node-server':
         specifier: ^1.12.1
-        version: 1.14.3(hono@4.7.10)
+        version: 1.14.3(hono@4.9.7)
       '@hono/zod-validator':
         specifier: 0.3.0
-        version: 0.3.0(hono@4.7.10)(zod@3.25.32)
+        version: 0.3.0(hono@4.9.7)(zod@3.25.32)
       '@nerimity/mimiqueue':
         specifier: 1.2.3
         version: 1.2.3(redis@4.7.0)
@@ -58,8 +58,8 @@ importers:
         specifier: ^16.3.1
         version: 16.4.5
       hono:
-        specifier: ^4.5.8
-        version: 4.7.10
+        specifier: ^4.9.7
+        version: 4.9.7
       pino:
         specifier: 9.4.0
         version: 9.4.0
@@ -538,10 +538,10 @@ importers:
         version: link:../../packages/server
       '@hono/node-server':
         specifier: ^1.12.1
-        version: 1.14.3(hono@4.7.10)
+        version: 1.14.3(hono@4.9.7)
       '@hono/zod-validator':
         specifier: 0.3.0
-        version: 0.3.0(hono@4.7.10)(zod@3.25.32)
+        version: 0.3.0(hono@4.9.7)(zod@3.25.32)
       bullmq:
         specifier: 5.4.2
         version: 5.4.2
@@ -552,8 +552,8 @@ importers:
         specifier: ^0.39.1
         version: 0.39.3(@opentelemetry/api@1.9.0)(kysely@0.28.2)(postgres@3.4.4)
       hono:
-        specifier: ^4.5.8
-        version: 4.7.10
+        specifier: ^4.9.7
+        version: 4.9.7
       ioredis:
         specifier: 5.4.1
         version: 5.4.1
@@ -989,6 +989,9 @@ packages:
   '@codemirror/autocomplete@6.18.6':
     resolution: {integrity: sha512-PHHBXFomUs5DF+9tCOM/UoW6XQ4R44lLNNhRaW9PKPTU0D7lIjRg3ElxaJnTwsl/oHiR93WSXDBrekhoUGCPtg==}
 
+  '@codemirror/autocomplete@6.18.7':
+    resolution: {integrity: sha512-8EzdeIoWPJDsMBwz3zdzwXnUpCzMiCyz5/A3FIPpriaclFCGDkAzK13sMcnsu5rowqiyeQN2Vs2TsOcoDPZirQ==}
+
   '@codemirror/commands@6.8.1':
     resolution: {integrity: sha512-KlGVYufHMQzxbdQONiLyGQDUW0itrLZwq3CcY7xpv9ZLRHqzkBSoteocBHtMCoY7/Ci4xhzSrToIeLg7FxHuaw==}
 
@@ -1000,6 +1003,9 @@ packages:
 
   '@codemirror/language@6.11.0':
     resolution: {integrity: sha512-A7+f++LodNNc1wGgoRDTt78cOwWm9KVezApgjOMp1W4hM0898nsqBXwF+sbePE7ZRcjN7Sa1Z5m2oN27XkmEjQ==}
+
+  '@codemirror/language@6.11.3':
+    resolution: {integrity: sha512-9HBM2XnwDj7fnu0551HkGdrUrrqmYq/WC5iv6nbY2WdicXdGbhR/gfbZOH73Aqj4351alY1+aoG9rCNfiwS1RA==}
 
   '@codemirror/legacy-modes@6.4.0':
     resolution: {integrity: sha512-5m/K+1A6gYR0e+h/dEde7LoGimMjRtWXZFg4Lo70cc8HzjSdHe3fLwjWMR0VRl5KFT1SxalSap7uMgPKF28wBA==}
@@ -1019,8 +1025,8 @@ packages:
   '@codemirror/view@6.29.0':
     resolution: {integrity: sha512-ED4ims4fkf7eOA+HYLVP8VVg3NMllt1FPm9PEJBfYFnidKlRITBaua38u68L1F60eNtw2YNcDN5jsIzhKZwWQA==}
 
-  '@codemirror/view@6.36.8':
-    resolution: {integrity: sha512-yoRo4f+FdnD01fFt4XpfpMCcCAo9QvZOtbrXExn4SqzH32YC6LgzqxfLZw/r6Ge65xyY03mK/UfUqrVw1gFiFg==}
+  '@codemirror/view@6.38.2':
+    resolution: {integrity: sha512-bTWAJxL6EOFLPzTx+O5P5xAO3gTqpatQ2b/ARQ8itfU/v2LlpS3pH2fkL0A3E/Fx8Y2St2KES7ZEV0sHTsSW/A==}
 
   '@commitlint/cli@19.8.1':
     resolution: {integrity: sha512-LXUdNIkspyxrlV6VDHWBmCZRtkEVRpBKxi2Gtw3J54cGWhLCTouVD/Q6ZSaSvd2YaDObWK8mDjrz3TIKtaQMAA==}
@@ -4819,8 +4825,8 @@ packages:
   hoist-non-react-statics@3.3.2:
     resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
 
-  hono@4.7.10:
-    resolution: {integrity: sha512-QkACju9MiN59CKSY5JsGZCYmPZkA6sIW6OFCUp7qDjZu6S6KHtJHhAc9Uy9mV9F8PJ1/HQ3ybZF2yjCa/73fvQ==}
+  hono@4.9.7:
+    resolution: {integrity: sha512-t4Te6ERzIaC48W3x4hJmBwgNlLhmiEdEE5ViYb02ffw4ignHNHa5IBtPjmbKstmtKa8X6C35iWwK4HaqvrzG9w==}
     engines: {node: '>=16.9.0'}
 
   html-parse-stringify@3.0.1:
@@ -7323,6 +7329,13 @@ snapshots:
       '@codemirror/view': 6.29.0
       '@lezer/common': 1.2.3
 
+  '@codemirror/autocomplete@6.18.7':
+    dependencies:
+      '@codemirror/language': 6.11.3
+      '@codemirror/state': 6.5.2
+      '@codemirror/view': 6.29.0
+      '@lezer/common': 1.2.3
+
   '@codemirror/commands@6.8.1':
     dependencies:
       '@codemirror/language': 6.11.0
@@ -7354,6 +7367,15 @@ snapshots:
       '@lezer/lr': 1.4.2
       style-mod: 4.1.2
 
+  '@codemirror/language@6.11.3':
+    dependencies:
+      '@codemirror/state': 6.5.2
+      '@codemirror/view': 6.29.0
+      '@lezer/common': 1.2.3
+      '@lezer/highlight': 1.2.1
+      '@lezer/lr': 1.4.2
+      style-mod: 4.1.2
+
   '@codemirror/legacy-modes@6.4.0':
     dependencies:
       '@codemirror/language': 6.11.0
@@ -7361,7 +7383,7 @@ snapshots:
   '@codemirror/lint@6.8.5':
     dependencies:
       '@codemirror/state': 6.5.2
-      '@codemirror/view': 6.36.8
+      '@codemirror/view': 6.38.2
       crelt: 1.0.6
 
   '@codemirror/search@6.5.11':
@@ -7376,7 +7398,7 @@ snapshots:
 
   '@codemirror/theme-one-dark@6.1.2':
     dependencies:
-      '@codemirror/language': 6.11.0
+      '@codemirror/language': 6.11.3
       '@codemirror/state': 6.5.2
       '@codemirror/view': 6.29.0
       '@lezer/highlight': 1.2.1
@@ -7387,9 +7409,10 @@ snapshots:
       style-mod: 4.1.2
       w3c-keyname: 2.2.8
 
-  '@codemirror/view@6.36.8':
+  '@codemirror/view@6.38.2':
     dependencies:
       '@codemirror/state': 6.5.2
+      crelt: 1.0.6
       style-mod: 4.1.2
       w3c-keyname: 2.2.8
 
@@ -7836,13 +7859,13 @@ snapshots:
 
   '@hexagon/base64@1.1.28': {}
 
-  '@hono/node-server@1.14.3(hono@4.7.10)':
+  '@hono/node-server@1.14.3(hono@4.9.7)':
     dependencies:
-      hono: 4.7.10
+      hono: 4.9.7
 
-  '@hono/zod-validator@0.3.0(hono@4.7.10)(zod@3.25.32)':
+  '@hono/zod-validator@0.3.0(hono@4.9.7)(zod@3.25.32)':
     dependencies:
-      hono: 4.7.10
+      hono: 4.9.7
       zod: 3.25.32
 
   '@hookform/resolvers@3.10.0(react-hook-form@7.56.4(react@18.2.0))':
@@ -10447,9 +10470,9 @@ snapshots:
 
   codemirror@6.0.1:
     dependencies:
-      '@codemirror/autocomplete': 6.18.6
+      '@codemirror/autocomplete': 6.18.7
       '@codemirror/commands': 6.8.1
-      '@codemirror/language': 6.11.0
+      '@codemirror/language': 6.11.3
       '@codemirror/lint': 6.8.5
       '@codemirror/search': 6.5.11
       '@codemirror/state': 6.5.2
@@ -11276,7 +11299,7 @@ snapshots:
     dependencies:
       react-is: 16.13.1
 
-  hono@4.7.10: {}
+  hono@4.9.7: {}
 
   html-parse-stringify@3.0.1:
     dependencies:
